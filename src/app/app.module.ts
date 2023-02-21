@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {ToastContainerModule, ToastrModule} from 'ngx-toastr';
-import { ExemplifyModule } from 'angular-exemplify/lib/exemplify.module';
+import { ToastContainerModule, ToastrModule } from 'ngx-toastr';
+import { AngularExemplifyModule } from 'angular-exemplify/public_api';
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import { ExemplifyModule } from 'angular-exemplify/lib/exemplify.module';
       enableHtml: true
     }),
     ToastContainerModule,
-    ExemplifyModule,
+    AngularExemplifyModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

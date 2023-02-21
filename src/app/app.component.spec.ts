@@ -1,16 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { ExemplifyModule } from 'angular-exemplify';
 import { ToastrModule, ToastContainerModule } from 'ngx-toastr';
+import { AngularExemplifyModule } from 'angular-exemplify/public_api';
 
 describe('AppComponent', () => {
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
       imports: [
-        ExemplifyModule,
+        AngularExemplifyModule,
         ToastrModule.forRoot({
           timeOut: 10000,
           closeButton: true,
