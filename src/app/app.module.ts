@@ -1,11 +1,11 @@
+import { NgModule } from '@angular/core/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 
 import { AppComponent } from './app.component';
 import {ToastContainerModule, ToastrModule} from 'ngx-toastr';
-import {ExemplifyModule} from 'angular-exemplify';
+import { ExemplifyModule } from 'angular-exemplify/lib/exemplify.module';
+
 
 @NgModule({
   declarations: [
