@@ -1,6 +1,6 @@
 {
-  "name": "@sebgroup/ngx-toastr",
-  "version": "0.0.0-semantically-released",
+  "name": "@seb-custody/custody-ngx-toastr",
+  "version": "15.0.0-beta1",
   "description": "A SEB themed toaster component for @sebgroup/bootstrap and angular",
   "main": "scss/ngx-toastr.scss",
   "scripts": {
@@ -20,14 +20,14 @@
     "url": "https://github.com/sebgroup/ngx-toastr/issues"
   },
   "dependencies": {
-    "ngx-toastr": "^11.2.1"
+    "ngx-toastr": "^15.2.2"
   },
   "peerDependencies": {
-    "@angular/animations": ">=8.0.0-0",
-    "@angular/core": ">=8.0.0-0",
-    "@angular/common": ">=8.0.0-0",
-    "@angular/platform-browser": ">=8.0.0-0",
-    "@sebgroup/bootstrap": ">=5.0.0-0",
-    "rxjs": "^6.5.0"
+    "@angular/animations": ">=15.1.5",
+    "@angular/core": ">=15.1.5",
+    "@angular/common": ">=15.1.5",
+    "@angular/platform-browser": ">=15.1.5",
+    "@seb-custody/custody-ng-bootstrap": ">=15.0.0-beta1",
+    "rxjs": "^6.5.4"
   }
 }
