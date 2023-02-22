@@ -88,7 +88,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sebgroup/ngx-toastr.git"
+    "url": "https://github.sebank.se/seb-custody/custody-ngx-toastr.git"
   },
   "publishConfig": {
     "access": "restricted"

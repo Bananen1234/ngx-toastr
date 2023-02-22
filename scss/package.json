@@ -1,23 +1,22 @@
 {
   "name": "@seb-custody/custody-ngx-toastr",
-  "version": "15.0.0-beta1",
-  "description": "A SEB themed toaster component for @sebgroup/bootstrap and angular",
+  "version": "15.0.0-beta-semantically-released",
+  "description": "A SEB themed toaster component for @seb-custody/custody-ng-bootstrap and angular",
   "main": "scss/ngx-toastr.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebgroup/ngx-toastr.git"
+    "url": "git+https://github.sebank.se/seb-custody/custody-ngx-toastr.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://repo.sebank.se/artifactory/api/npm/custody-npm-local/"
   },
   "author": "Robert Hjalmers",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sebgroup/ngx-toastr/issues"
+    "url": "https://github.sebank.se/seb-custody/custody-ngx-toastr/issues"
   },
   "dependencies": {
     "ngx-toastr": "^15.2.2"
