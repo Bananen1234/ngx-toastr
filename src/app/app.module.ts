@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { ToastContainerModule, ToastrModule } from 'ngx-toastr';
 import { AngularExemplifyModule } from 'angular-exemplify/public_api';
 
-
 @NgModule({
   declarations: [
     AppComponent
